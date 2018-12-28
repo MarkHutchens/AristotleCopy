@@ -1,0 +1,84 @@
+Below is simply copy/pasted from slack. It's the chat from Monday's presentation.
+
+Message List
+aristotle APP
+This is the very beginning of your direct message history with @aristotle
+ How does aristotle work?
+
+Aristotle APP [3:51 PM]
+Hello! My name is Aristotle. I am a Binary Tutor-Bot specifically equipped to help you with counting, addition, subtraction, and fractions in binary. What would you like to discuss today?
+
+Mark Hutchens [1:38 PM]
+Let's start with counting.
+
+Aristotle APP [1:38 PM]
+Okay, let's talk about counting! First of all: do you know what it means for a number to be in "base ten"?
+
+Mark Hutchens [1:38 PM]
+No I don't, what's that?
+
+Aristotle APP [1:38 PM]
+Alright, let me explain! The base ten, or "decimal," counting system is one you're probably familiar with already. It uses ten symbols: 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9. The rightmost digit of any number in the decimal system is the "ones" place. To the left of it is the "tens" place, and to the left of that is the "hundreds" place (which is ten to the power of 2), and to the left of that is the "thousands" place (which is ten to the power of 3), etc. For example, the number 546 has five hundreds, four tens, and six ones. Do you follow so far? If not, we can work with some examples!
+
+Mark Hutchens [1:39 PM]
+I think I understand.
+
+Aristotle APP [1:39 PM]
+Great! So you know that numbers in base 10 have a "ones place," a "tens place," a "hundreds place," etc. Binary counting works similarly to decimal counting, only instead of each "place" being a power of ten, each "place" is a power of two. The rightmost digit is the ones place, the digit to the left of that is the twos place, the next digit is the fours place, the next digit is the eights place, etc. For example, the number 100101 has a one in the ones place, a one in the fours place, and a one in the thirty-twos place; 32 + 4 + 1 = 37, so 100101 = 37. Do you follow?
+
+Mark Hutchens [1:40 PM]
+I don't get it.
+
+Aristotle APP [1:40 PM]
+Try it yourself: give me a binary number and tell me what you think it is in decimal, or vice versa, and I'll let you know whether you're right. When you want to stop, just say "Stop quizzing". (Please don't pick a decimal number that's made up of only 1s and 0s, like 100 - it'll confuse me!)
+
+Mark Hutchens [1:41 PM]
+Is 1000011 equal to 131?
+
+Aristotle APP [1:41 PM]
+No they are not equal
+131 is 10000011 in binary. And 1000011 is 67 in decimal.
+
+Mark Hutchens [1:42 PM]
+Is 57 the same as 111001?
+
+Aristotle APP [1:42 PM]
+Yes they are the same.
+
+Mark Hutchens [1:42 PM]
+Can we move to addition?
+
+Aristotle APP [1:42 PM]
+Okay, let's talk about addition! To begin: do you know what it means to "carry" when adding larger numbers?
+
+Mark Hutchens [1:43 PM]
+Yes I do.
+
+Aristotle APP [1:43 PM]
+Great! Let's talk about addition. Addition is pretty easy in binary, but you’ll have to get used to carrying a lot of 1s. Carrying works just the same in binary as in decimal, only instead of carrying a ten/hundred/etc, you carry a two/four/etc. For example: what is 110 + 11? Start by adding the digits in the ones place: 1 + 0 = 1, so the last digit of the answer is 1. Next, the twos place: 1 + 1 = 10, so we have to carry the 1 over to the fours place (and we now know that the answer ends in 01). Next, the fours place: add the 1 of 110 to the 1 that got carried, and we get 10 again. We now know the answer ends in 001, and we have to carry the 1 to the eights place - and since that's the only digit in the eights place, we know that the answer is 1001. Does that make sense? If not, I can work with some examples!
+
+Mark Hutchens [1:43 PM]
+Can I have an example?
+
+Aristotle APP [1:43 PM]
+Ok! Try it yourself - give me two numbers in binary and try your best to add them, and I'll let you know whether you've got it right. Once you're confident in the material, just say "stop quizzing". (Make sure to list the sum that you've figured out LAST - please don't say it like "100 is the sum of 11 and 1"!)
+
+Mark Hutchens [1:44 PM]
+Is 11 plus 1 equal to 100?
+
+Aristotle APP [1:44 PM]
+1 + 3 = 4 in decimal, right?
+That's like writing 1 + 11 = 100 in binary.
+Again, we'll work from the right to the left.
+Our two digits are 1 and 1.
+Two 1s means we get a 0 and a carry.
+Our current result is 0
+Our two digits are 1 and 0.
+And you have another 1 from the carry.
+Two 1s means we get a 0 and a carry.
+Our current result is 00
+Our two digits are 0 and 0.
+And you have another 1 from the carry.
+That means we put a 1 in this digit.
+And our final result is 100 or 4.
+Which is the same, so you are right!
